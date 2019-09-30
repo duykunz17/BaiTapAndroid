@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="Nhập Họ Tên: " />
+
+    <EditText
+        android:id="@+id/etHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập họ tên vào đây"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvHoLot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ Lót: " />
+
+    <EditText
+        android:id="@+id/etHoLot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên: " />
+
+    <EditText
+        android:id="@+id/etTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnXuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xuất" />
+
+</LinearLayout>

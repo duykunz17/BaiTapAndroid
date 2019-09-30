@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvArrayNumber"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Random array" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnXuatXuoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xuất Xuôi" />
+
+    <Button
+        android:id="@+id/btnXuatNguoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xuất Ngược" />
+
+    <Button
+        android:id="@+id/btnMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tìm Max" />
+
+    <Button
+        android:id="@+id/btnMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tìm Min" />
+
+    <Button
+        android:id="@+id/btnSort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sắp Thứ Tự Tăng" />
+
+    <Button
+        android:id="@+id/btnSumSNT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng Số Nguyên Tố" />
+
+    <Button
+        android:id="@+id/btnCountSNT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đếm Số Nguyên Tố" />
+</LinearLayout>

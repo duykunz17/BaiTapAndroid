@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnuDSSV" android:title="Xem danh sách sinh viên"></item>
+    <item android:id="@+id/mnuLop" android:title="Xem danh sách lớp"></item>
+</menu>

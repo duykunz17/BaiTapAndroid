@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BaiTap2</string>
+    <string name="message_dialog_exist">Bạn có muốn thoát không?</string>
+    <string name="message_dialog_exist_title">Thông báo</string>
+    <string name="message_dialog_ok">Có</string>
+    <string name="message_dialog_cancel">Không</string>
+</resources>

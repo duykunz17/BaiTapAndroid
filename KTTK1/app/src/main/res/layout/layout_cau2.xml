@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giải phương trình bậc 2"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        />
+    <EditText
+        android:id="@+id/edA"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Nhập  A"
+        />
+
+
+    <EditText
+        android:id="@+id/edB"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Nhập B"
+        />
+    <EditText
+        android:id="@+id/edC"
+        android:layout_width="400px"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="Nhập C"
+        />
+    <Button
+        android:id="@+id/btnKetQua"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:text="Giải và gởi kết quả"
+        android:textSize="22dp"/>
+
+
+
+</LinearLayout>
