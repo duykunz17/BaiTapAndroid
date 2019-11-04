@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="se.iuh.ontapthuchanh">
+
+    <permission
+        android:name="se.iuh.ontapthuchanh.READ_DATABASE"
+        android:label="Read database"
+        android:protectionLevel="normal">
+    </permission>
+    <permission
+        android:name="se.iuh.ontapthuchanh.WRITE_DATABASE"
+        android:label="Write database"
+        android:protectionLevel="normal">
+    </permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider xmlns:tools="http://schemas.android.com/tools"
+            android:name="se.iuh.ontapthuchanh.AccountProvider"
+            android:authorities="se.iuh.ontapthuchanh.AccountProvider"
+            android:exported="true"
+            android:multiprocess="true"
+            android:readPermission="se.iuh.ontapthuchanh.READ_DATABASE"
+            android:writePermission="se.iuh.ontapthuchanh.WRITE_DATABASE" >
+        </provider>
+    </application>
+
+
+</manifest>
